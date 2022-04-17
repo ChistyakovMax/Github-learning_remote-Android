@@ -1,0 +1,570 @@
+--------- beginning of main
+04-16 15:04:36.331  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:04:36.334  5264  5306 D TransportRuntime.JobInfoScheduler: Scheduling upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) with jobId=-1347146806 in 30000ms(Backend next call timestamp 1650121500047). Attempt 1
+04-16 15:04:36.383  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:04:36.385  5264  5306 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) is already scheduled. Returning...
+04-16 15:04:49.050  1447  1447 I boot-pipe: done populating /dev/random
+04-16 15:04:51.393  1643  1660 I WifiService: requestActivityInfo uid=1000
+04-16 15:04:51.393  1643  1660 I WifiService: reportActivityInfo uid=1000
+04-16 15:04:51.393  1643  1660 I WifiService: getSupportedFeatures uid=1000
+04-16 15:04:52.066  1643  1660 I WifiService: requestActivityInfo uid=1000
+04-16 15:04:52.066  1643  1660 I WifiService: reportActivityInfo uid=1000
+04-16 15:04:52.067  1643  1660 I WifiService: getSupportedFeatures uid=1000
+04-16 15:04:52.193  1643  1656 E memtrack: Couldn't load memtrack module
+04-16 15:04:52.193  1643  1656 W android.os.Debug: failed to get memory consumption info: -1
+04-16 15:04:52.212  1643  1656 E memtrack: Couldn't load memtrack module
+04-16 15:04:52.212  1643  1656 W android.os.Debug: failed to get memory consumption info: -1
+04-16 15:04:52.221  1643  1656 E memtrack: Couldn't load memtrack module
+04-16 15:04:52.221  1643  1656 W android.os.Debug: failed to get memory consumption info: -1
+04-16 15:04:56.486  5264  5438 W Settings: Setting development_settings_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+04-16 15:05:00.004  1643  1656 E memtrack: Couldn't load memtrack module
+04-16 15:05:00.004  1643  1656 W android.os.Debug: failed to get memory consumption info: -1
+04-16 15:05:00.014  1440  1459 D hwcomposer: hw_composer sent 18 syncs in 60s
+04-16 15:05:00.237  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:05:00.240  5264  5306 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) is already scheduled. Returning...
+04-16 15:05:00.890  1643  4204 I WifiService: getWifiEnabledState uid=10081
+04-16 15:05:00.890  1643  4204 I WifiService: getConnectionInfo uid=10081
+04-16 15:05:00.891  1643  4204 D WifiPermissionsUtil: Denied: no location permission
+04-16 15:05:00.891  1643  4204 D WifiPermissionsUtil: Denied: caller is not the current USE_OPEN_WIFI_PACKAGE
+04-16 15:05:16.349  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:05:16.352  5264  5306 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) is already scheduled. Returning...
+04-16 15:05:20.615  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:05:20.618  5264  5306 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) is already scheduled. Returning...
+04-16 15:05:25.238  1643  1656 E memtrack: Couldn't load memtrack module
+04-16 15:05:25.238  1643  1656 W android.os.Debug: failed to get memory consumption info: -1
+04-16 15:05:25.240  5264  5306 D TransportRuntime.CctTransportBackend: Making request to: https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog
+04-16 15:05:25.299  4218  5502 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:4 exec_start_elapsed_seconds: 1189 [CONTEXT service_id=218 ]
+04-16 15:05:25.401  4218  4355 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-16 15:05:25.401  4218  4355 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@220920022@22.09.20 (040700-434869283):2)
+04-16 15:05:25.401  4218  4355 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@220920022@22.09.20 (040700-434869283):0)
+04-16 15:05:25.419  4218  4355 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+04-16 15:05:25.419  4218  4355 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@220920022@22.09.20 (040700-434869283):2)
+04-16 15:05:25.419  4218  4355 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@220920022@22.09.20 (040700-434869283):0)
+04-16 15:05:25.454  4218  4355 W GLSUser : [AppCertManager] IOException while requesting key: 
+04-16 15:05:25.454  4218  4355 W GLSUser : java.io.IOException: Invalid device key response.
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at kqs.b(:com.google.android.gms@220920022@22.09.20 (040700-434869283):28)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at kqq.b(:com.google.android.gms@220920022@22.09.20 (040700-434869283):2)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at kql.a(:com.google.android.gms@220920022@22.09.20 (040700-434869283):0)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at kqo.a(:com.google.android.gms@220920022@22.09.20 (040700-434869283):5)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at ima.call(:com.google.android.gms@220920022@22.09.20 (040700-434869283):13)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at xss.c(:com.google.android.gms@220920022@22.09.20 (040700-434869283):6)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at xss.run(:com.google.android.gms@220920022@22.09.20 (040700-434869283):7)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at xxx.run(:com.google.android.gms@220920022@22.09.20 (040700-434869283):0)
+04-16 15:05:25.454  4218  4355 W GLSUser : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:25.455  4218  4420 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:4 result: 3 elapsed_millis: 184 uptime_millis: 184 exec_start_elapsed_seconds: 1189 [CONTEXT service_id=218 ]
+04-16 15:05:25.783  4218  4381 I zygote  : Deoptimizing bvhn bvhp.a(long, long, bwcy) due to JIT inline cache
+04-16 15:05:27.291  5264  5306 I TransportRuntime.CctTransportBackend: Status Code: 200
+04-16 15:05:27.291  5264  5306 I TransportRuntime.CctTransportBackend: Content-Type: application/json; charset=UTF-8
+04-16 15:05:27.291  5264  5306 I TransportRuntime.CctTransportBackend: Content-Encoding: gzip
+04-16 15:05:36.402  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:05:36.405  5264  5306 D TransportRuntime.JobInfoScheduler: Scheduling upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) with jobId=-1347146806 in 30000ms(Backend next call timestamp 1650121557308). Attempt 1
+04-16 15:05:40.251  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:05:40.254  5264  5306 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) is already scheduled. Returning...
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:41.943  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:41.944  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:41.945  1431  3960 W audio_hw_generic: Not supplying enough data to HAL, expected position 3018348 , only wrote 3018240
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:41.986  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:41.996  5264  5297 I chatty  : uid=10081(cb.ibank) Crashlytics Exc identical 2 lines
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:41.999  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:42.003  1643  1654 I WifiService: getWifiEnabledState uid=10081
+04-16 15:05:42.005  1643  1654 I WifiService: getConnectionInfo uid=10081
+04-16 15:05:42.005  1643  1654 D WifiPermissionsUtil: Denied: no location permission
+04-16 15:05:42.006  1643  1654 D WifiPermissionsUtil: Denied: caller is not the current USE_OPEN_WIFI_PACKAGE
+04-16 15:05:42.023  4879  4879 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+04-16 15:05:42.023  4879  4879 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:42.024  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:42.082  5264  5264 I zygote  : Deoptimizing void androidx.constraintlayout.widget.ConstraintLayout.onLayout(boolean, int, int, int, int) due to JIT inline cache
+04-16 15:05:42.130  5264  5264 W Glide   : Load failed for jfikd.ru with size [189x116]
+04-16 15:05:42.130  5264  5264 W Glide   : class com.bumptech.glide.load.engine.GlideException: Failed to load resource
+04-16 15:05:42.130  5264  5264 W Glide   : There were 3 causes:
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.130  5264  5264 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class java.io.InputStream, LOCAL
+04-16 15:05:42.130  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.130  5264  5264 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+04-16 15:05:42.130  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.130  5264  5264 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: /jfikd.ru (No such file or directory)
+04-16 15:05:42.130  5264  5264 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.os.ParcelFileDescriptor, LOCAL
+04-16 15:05:42.130  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.130  5264  5264 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+04-16 15:05:42.130  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.130  5264  5264 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.130  5264  5264 W Glide   :   Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.content.res.AssetFileDescriptor, LOCAL
+04-16 15:05:42.130  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.130  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.130  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.130  5264  5264 W Glide   :     Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.131  5264  5264 I Glide   : Root cause (1 of 3)
+04-16 15:05:42.131  5264  5264 I Glide   : java.io.FileNotFoundException: /jfikd.ru (No such file or directory)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.io.FileInputStream.open0(Native Method)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.io.FileInputStream.open(FileInputStream.java:200)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:150)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.content.ContentResolver.openInputStream(ContentResolver.java:965)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.n.b(StreamLocalUriFetcher.java:2)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.131  5264  5264 I Glide   : Root cause (2 of 3)
+04-16 15:05:42.131  5264  5264 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:313)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:211)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1242)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.i.b(FileDescriptorLocalUriFetcher.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.131  5264  5264 I Glide   : Root cause (3 of 3)
+04-16 15:05:42.131  5264  5264 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:313)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:211)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1242)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.a.b(AssetFileDescriptorLocalUriFetcher.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.131  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.133  5264  5264 W Glide   : Load failed for jfikd.ru with size [189x116]
+04-16 15:05:42.133  5264  5264 W Glide   : class com.bumptech.glide.load.engine.GlideException: Failed to load resource
+04-16 15:05:42.133  5264  5264 W Glide   : There were 3 causes:
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.133  5264  5264 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class java.io.InputStream, LOCAL
+04-16 15:05:42.133  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.133  5264  5264 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+04-16 15:05:42.133  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.133  5264  5264 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: /jfikd.ru (No such file or directory)
+04-16 15:05:42.133  5264  5264 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.os.ParcelFileDescriptor, LOCAL
+04-16 15:05:42.133  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.133  5264  5264 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+04-16 15:05:42.133  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.133  5264  5264 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.133  5264  5264 W Glide   :   Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.content.res.AssetFileDescriptor, LOCAL
+04-16 15:05:42.133  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.133  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.133  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.133  5264  5264 W Glide   :     Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.133  5264  5264 I Glide   : Root cause (1 of 3)
+04-16 15:05:42.133  5264  5264 I Glide   : java.io.FileNotFoundException: /jfikd.ru (No such file or directory)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.io.FileInputStream.open0(Native Method)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.io.FileInputStream.open(FileInputStream.java:200)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:150)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at android.content.ContentResolver.openInputStream(ContentResolver.java:965)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.i.n.b(StreamLocalUriFetcher.java:2)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.133  5264  5264 I Glide   : Root cause (2 of 3)
+04-16 15:05:42.133  5264  5264 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:313)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:211)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1242)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.i.i.b(FileDescriptorLocalUriFetcher.java:1)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.133  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.134  5264  5264 I Glide   : Root cause (3 of 3)
+04-16 15:05:42.134  5264  5264 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:313)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:211)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1242)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.i.a.b(AssetFileDescriptorLocalUriFetcher.java:1)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.134  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.135  5264  5264 W Glide   : Load failed for jfikd.ru with size [189x116]
+04-16 15:05:42.135  5264  5264 W Glide   : class com.bumptech.glide.load.engine.GlideException: Failed to load resource
+04-16 15:05:42.135  5264  5264 W Glide   : There were 3 causes:
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.135  5264  5264 W Glide   :   Cause (1 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class java.io.InputStream, LOCAL
+04-16 15:05:42.135  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.135  5264  5264 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+04-16 15:05:42.135  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(/jfikd.ru (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.135  5264  5264 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: /jfikd.ru (No such file or directory)
+04-16 15:05:42.135  5264  5264 W Glide   :   Cause (2 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.os.ParcelFileDescriptor, LOCAL
+04-16 15:05:42.135  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.135  5264  5264 W Glide   :     Cause (1 of 1): class com.bumptech.glide.load.engine.GlideException: Fetch failed
+04-16 15:05:42.135  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.135  5264  5264 W Glide   :       Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.135  5264  5264 W Glide   :   Cause (3 of 3): class com.bumptech.glide.load.engine.GlideException: Fetching data failed, class android.content.res.AssetFileDescriptor, LOCAL
+04-16 15:05:42.135  5264  5264 W Glide   : There was 1 cause:
+04-16 15:05:42.135  5264  5264 W Glide   : java.io.FileNotFoundException(open failed: ENOENT (No such file or directory))
+04-16 15:05:42.135  5264  5264 W Glide   :  call GlideException#logRootCauses(String) for more detail
+04-16 15:05:42.135  5264  5264 W Glide   :     Cause (1 of 1): class java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.135  5264  5264 I Glide   : Root cause (1 of 3)
+04-16 15:05:42.135  5264  5264 I Glide   : java.io.FileNotFoundException: /jfikd.ru (No such file or directory)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.io.FileInputStream.open0(Native Method)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.io.FileInputStream.open(FileInputStream.java:200)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:150)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.io.FileInputStream.<init>(FileInputStream.java:103)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.content.ContentResolver.openInputStream(ContentResolver.java:965)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.n.b(StreamLocalUriFetcher.java:2)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.135  5264  5264 I Glide   : Root cause (2 of 3)
+04-16 15:05:42.135  5264  5264 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:313)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:211)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1242)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.i.b(FileDescriptorLocalUriFetcher.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.135  5264  5264 I Glide   : Root cause (3 of 3)
+04-16 15:05:42.135  5264  5264 I Glide   : java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.openInternal(ParcelFileDescriptor.java:313)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.os.ParcelFileDescriptor.open(ParcelFileDescriptor.java:211)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1242)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1170)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.a.b(AssetFileDescriptorLocalUriFetcher.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.a(DecodeJob.java:8)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.onLoadFailed(SourceGenerator.java:1)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.startNextOrFail(MultiModelLoader.java:7)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.onLoadFailed(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.i.l.loadData(LocalUriFetcher.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.model.MultiModelLoader$MultiFetcher.loadData(MultiModelLoader.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.x.b(SourceGenerator.java:31)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.n(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.q(DecodeJob.java:4)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at com.bumptech.glide.load.engine.DecodeJob.run(DecodeJob.java:5)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:42.135  5264  5264 I Glide   : 	at d.d.a.o.j.a0.a$a$a.run(GlideExecutor.java:8)
+04-16 15:05:42.151  5264  5306 D TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREPERF for destination cct
+04-16 15:05:42.159  5264  5306 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy1wYS5nb29nbGVhcGlzLmNvbS92MS9maXJlbG9nL2xlZ2FjeS9iYXRjaGxvZ1xBSXphU3lDY2traUg4aTJaQVJ3T3MxTEV6RktsZDE1YU9HOG96S28=) is already scheduled. Returning...
+04-16 15:05:42.226  5264  5274 I zygote  : Background concurrent copying GC freed 79956(4MB) AllocSpace objects, 10(196KB) LOS objects, 32% free, 12MB/18MB, paused 405us total 106.395ms
+04-16 15:05:42.227  5264  5272 E SpellCheckerSession: ignoring processOrEnqueueTask due to unexpected mState=TASK_CLOSE scp.mWhat=TASK_CLOSE
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:43.106  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:43.155  5264  5297 I chatty  : uid=10081(cb.ibank) Crashlytics Exc identical 4 lines
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:43.155  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:43.159  5264  5264 I zygote  : Deoptimizing void androidx.recyclerview.widget.LinearLayoutManager.v0(androidx.recyclerview.widget.RecyclerView$t, androidx.recyclerview.widget.RecyclerView$y) due to JIT inline cache
+04-16 15:05:43.168  5264  5264 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+04-16 15:05:43.170  5264  5264 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: Could not open log file: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: java.io.FileNotFoundException: /data/user/0/cb.ibank/files/.com.google.firebase.crashlytics/log-files/crashlytics-userlog-625AD8FA0194-0001-1490-268141E614E8.temp.tmp: open failed: ENOENT (No such file or directory)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:512)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:274)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.c.<init>(QueueFile.java:5)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.f(QueueFileLogStore.java:2)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.l.e.c(QueueFileLogStore.java:1)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.l.call(CrashlyticsController.java:5)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.i.a(CrashlyticsBackgroundWorker.java:1)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.a.e.r.p.run(com.google.android.gms:play-services-tasks@@17.2.1:6)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.n0$a.a(ExecutorUtils.java:1)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at d.j.d.k.e.k.d.run(BackgroundPriorityRunnable.java:2)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at java.lang.Thread.run(Thread.java:764)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at libcore.io.Linux.open(Native Method)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:207)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	at libcore.io.IoBridge.open(IoBridge.java:498)
+04-16 15:05:43.170  5264  5297 E FirebaseCrashlytics: 	... 12 more
+04-16 15:05:43.172  5264  5264 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+04-16 15:05:43.174  5264  5264 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+04-16 15:05:43.213  1449  1449 D SurfaceFlinger: duplicate layer name: changing cb.ibank/cb.ibank.activities.MainActivity to cb.ibank/cb.ibank.activities.MainActivity#1
+04-16 15:05:43.223  1439  1474 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2326528
+04-16 15:05:43.231  1439  1474 I chatty  : uid=1000(system) HwBinder:1439_2 identical 1 line
+04-16 15:05:43.234  1439  1474 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2326528
+04-16 15:05:43.257  5264  5373 D EGL_emulation: eglMakeCurrent: 0xa5107400: ver 2 0 (tinfo 0x8ee38aa0)
+--------- beginning of system
+04-16 15:05:44.218  1643  1656 I UsageStatsService: User[0] Flushing usage stats to disk
+04-16 15:05:44.619  5264  5373 I chatty  : uid=10081(cb.ibank) RenderThread identical 4 lines
+04-16 15:05:44.784  5264  5373 D EGL_emulation: eglMakeCurrent: 0xa5107400: ver 2 0 (tinfo 0x8ee38aa0)
+04-16 15:05:44.801  5264  5373 D OpenGLRenderer: endAllActiveAnimators on 0x8b1d9900 (RippleDrawable) with handle 0x85b5d490
+04-16 15:05:44.823  5264  5373 D EGL_emulation: eglMakeCurrent: 0xa5107400: ver 2 0 (tinfo 0x8ee38aa0)
